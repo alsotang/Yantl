@@ -18,7 +18,7 @@ html(lang="en") {
     h1#title {
       "hello world"
     }
-    h2(style="font-size: 0.75em;")#subtitle {
+    h2#subtitle(style="font-size: 0.75em;") {
       "from Yanti"
     }
     section#content {
