@@ -1,0 +1,52 @@
+Yantl
+=====
+
+Yet another nonsense templating language.
+
+Example
+-------
+
+[source]
+----
+!doctype(html)
+html(lang="en") {
+  head {
+    meta(charset="utf-8")
+    title { "Yantl example" }
+  }
+  body {
+    h1#title {
+      "hello world"
+    }
+    h2(style="font-size: 0.75em;")#subtitle {
+      "from Yanti"
+    }
+    section#content {
+      "blah blah blah"
+      "on the same line, blah blah blah"
+      
+      "on a new line, blah blah blah"
+  }
+}
+----
+
+[source,html]
+----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Yantl example</title>
+  </head>
+  <body>
+    <h1 id="title">hello world</h1>
+    <h2 id="subtitle" style="font-size: 0.75em;">from Yanti</h2>
+    <section id="content">
+      blah blah blah
+      on the same line, blah blah blah
+      <br>
+      on a new line, blah blah blah
+    </section>
+  </body>
+</html>
+----
