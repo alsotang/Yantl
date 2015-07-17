@@ -23,8 +23,7 @@ html(lang="en") {
     }
     section#content {
       "blah blah blah"
-      "on the same line, blah blah blah"
-      
+      "on the same line, blah blah blah";
       "on a new line, blah blah blah"
   }
 }
