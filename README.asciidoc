@@ -3,7 +3,7 @@ Yantl
 
 Yet another nonsense templating language.
 
-please try yantl online: http://alsotang.github.io/yantl.js/
+please try online: http://alsotang.github.io/yantl.js/
 
 Example
 -------
