@@ -3,6 +3,12 @@ Yantl
 
 Yet another nonsense templating language.
 
+online version
+-------
+
+please try yantl online: http://alsotang.github.io/yantl.js/
+
+
 Example
 -------
 
